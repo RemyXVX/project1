@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="images.css">
+  <script src="./scripts.js" defer></script>
+  <title> Trivia Game </title>
+</head>
+<body class="all">
+
+  <div class="grid">
+    <div class="grid-item1"></div>
+    <div class="grid-item2"></div>
+    <div class="grid-item3"></div>
+    <div class="grid-item4"></div>
+    <div class="grid-item5"></div>
+    <div class="grid-item6"></div>
+    <div class="grid-item7"></div>
+    <div class="grid-item8"></div>
+    <div class="grid-item9"></div>
+    <div class="grid-item10"></div>
+    <div class="grid-item11"></div>
+    <div class="grid-item12"></div>
+    <div class="grid-item13"></div>
+    <div class="grid-item14"></div>
+    <div class="grid-item15"></div>
+  </div>
+
+  <div class="container">
+    <div class="quiz-contain">
+      <div class="first-part">
+        <div class="title">
+          <h1> Trivia Game </h1>
+        </div>
+        <div class="level-category">
+          <span class="options" id="category">Option - </span>
+          <br>
+          <span class="options" id="difficulty">Level - </span>
+        </div>
+      </div>
+      <div class="quiz">
+        <div class="quiz-header">
+          <p id="question">What is going on? how are things ujbsdhjbfsdhjbhjsdfvbhjdsvhjfdsvhjdsfvhjdsvhjdsvhjsdvhjsdavhjfdvhjsdvhjfdvhjsvdhjsdfvefwjbsdfjkbjsdfbjdsbjkdsfbjdsbkjsdbdsfjkbdfsjkbdfsjkbdfsjkbdfsjkbdfsjkbfdjkdsfbj</p>
+        </div>
+        <div class="main-option-box">
+          <div class="pick-options">
+            <div class="btn-choice">
+              <input type="radio" id="answer1" name="answer-choice" value="answer1">
+              <label class="choice-option" for="answer1">answer1</label>
+            </div>
+            <div class="btn-choice">
+              <input type="radio" id="answer2" name="answer-choice" value="answer2">
+              <label class="choice-option" for="answer2">answer2</label>
+            </div>
+            <div class="btn-choice">
+              <input type="radio" id="answer3" name="answer-choice" value="answer3">
+              <label class="choice-option"  for="answer3">answer3</label>
+            </div>
+            <div class="btn-choice">
+              <input type="radio" id="answer4" name="answer-choice" value="answer4">
+              <label class="choice-option" for="answer4">answer4</label>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="them-buttons">
+            <button type="button" id="answer">Answer</button>
+            <button type="button" id="start-over">Try again</button>
+          </div>
+          <div class="on-question">
+            <span class="number-of-questions">0</span>/<span class="total-of-question">10</span>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</body>
